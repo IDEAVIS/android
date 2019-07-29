@@ -4,3 +4,5 @@
 [submodule "app/src/main/jni/loafwallet-core"]
 	path = app/src/main/jni/loafwallet-core
 	url = git@git.j4hangir.com:ideavis/wallet-core.git
+
+
