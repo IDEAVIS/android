@@ -707,7 +707,7 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">A Atualizar...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">As Loafwallets mudaram de nome para Loaf, com um visual completamente novo e algumas características novas. \n\nSe precisar de ajuda, procure o (?) no canto superior direito da maioria das telas.</string>
+  <string name="Welcome.body">As IdeavisWallets mudaram de nome para Loaf, com um visual completamente novo e algumas características novas. \n\nSe precisar de ajuda, procure o (?) no canto superior direito da maioria das telas.</string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">Bem-vindo ao Loaf!</string>
   <!-- Wipe wallet alert message -->
@@ -723,7 +723,7 @@
   <!-- Start wipe wallet view message -->
   <string name="WipeWallet.startMessage">Começar ou recuperar outra carteira permite-lhe entrar e administrar uma carteira diferente da Loaf neste dispositivo.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWarning">Não poderá mais aceder à sua Loafwallet a partir deste dispositivo. O saldo permanecerá na frase.</string>
+  <string name="WipeWallet.startWarning">Não poderá mais aceder à sua IdeavisWallet a partir deste dispositivo. O saldo permanecerá na frase.</string>
   <!-- Wipe wallet navigation item title. -->
   <string name="WipeWallet.title">Iniciar ou recuperar outra carteira</string>
   <!-- Wipe wallet button title -->

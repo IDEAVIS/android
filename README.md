@@ -3,13 +3,13 @@ LoafWallet for Android
 
 ![download](/images/icon-google-play.png)(https://play.google.com/store/apps/details?id=io.ideavis)
 
-### The easy and secure Litecoin wallet
+### The easy and secure IdeavisCoin wallet
 
-LoafWallet is the best way to get started with Litecoin. Our simple, streamlined design is easy for beginners, yet powerful enough for experienced users. This is a port of the LoafWallet for iOS app which can be found here: https://github.com/litecoin-foundation/loafwallet-ios
+LoafWallet is the best way to get started with Litecoin. Our simple, streamlined design is easy for beginners, yet powerful enough for experienced users. This is a port of the IdeavisWallet for iOS app which can be found here: https://github.com/litecoin-foundation/loafwallet-ios
 
 ##### Completely decentralized
 
-Unlike other iOS Litecoin wallets, **LoafWallet** is a standalone Litecoin client. It connects directly to the Litecoin network using [SPV](https://en.bitcoin.it/wiki/Thin_Client_Security#Header-Only_Clients) mode, and doesn't rely on servers that can be hacked or disabled. Even if LoafWallet is removed from the App Store, the app will continue to function, allowing users to access their money at any time.
+Unlike other iOS Litecoin wallets, **LoafWallet** is a standalone Litecoin client. It connects directly to the Litecoin network using [SPV](https://en.bitcoin.it/wiki/Thin_Client_Security#Header-Only_Clients) mode, and doesn't rely on servers that can be hacked or disabled. Even if IdeavisWallet is removed from the App Store, the app will continue to function, allowing users to access their money at any time.
 
 ##### Cutting-edge security
 
@@ -28,7 +28,7 @@ Simplicity and ease-of-use is **LoafWallet**'s core design principle. A simple r
 - import [password protected](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) paper wallets
 - ["payment protocol"](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) payee identity certification
 
-### Building & Developing LoafWallet for Android:
+### Building & Developing IdeavisWallet for Android:
 
 1. Download and install Java 7 or up
 2. Download and install the latest Android studio
