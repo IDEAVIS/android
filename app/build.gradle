@@ -5,7 +5,7 @@ android {
     buildToolsVersion = '28.0.3'
     defaultConfig {
         testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
-        applicationId = 'com.loafwallet'
+        applicationId = 'io.ideavis'
         minSdkVersion 23
         targetSdkVersion 26
         versionCode 175
@@ -46,9 +46,9 @@ android {
     flavorDimensions "mode"
     productFlavors {
         loaf {
-            applicationId "com.loafwallet"
+            applicationId "io.ideavis"
             dimension "mode"
-            resValue "string", "app_name", "LoafWallet"
+            resValue "string", "app_name", "Ideavis"
             buildConfigField "boolean", "BITCOIN_TESTNET", "false"
 
             externalNativeBuild {
@@ -63,7 +63,7 @@ android {
         }
 
         loafTestnet {
-            applicationId "com.loafwallet.testnet"
+            applicationId "io.ideavis.testnet"
             dimension "mode"
             resValue "string", "app_name", "LoafWallet-testnet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "true"

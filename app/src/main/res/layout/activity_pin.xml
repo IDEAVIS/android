@@ -11,14 +11,14 @@
 
     <ImageView
         android:id="@+id/title"
-        android:layout_width="96dp"
-        android:layout_height="48dp"
+        android:layout_width="163dp"
+        android:layout_height="81dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:gravity="center_horizontal"
-        android:src="@drawable/ltc_logo"
+        android:src="@drawable/ivc_logo"
         android:textColor="@color/white"
         android:textSize="48sp"
         app:customTFont="Celevenia.otf"
