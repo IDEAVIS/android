@@ -167,7 +167,6 @@ public class TxManager {
                 BREventManager.getInstance().pushEvent("prompt." + PromptManager.getInstance().getPromptName(item) + ".dismissed");
 
         }
-
     }
 
     private void showNextPrompt(Activity app) {
@@ -192,7 +191,7 @@ public class TxManager {
         long took = (System.currentTimeMillis() - start);
         if (took > 500)
             Log.e(TAG, "updateTxList: took: " + took);
-        if (adapter != null ) {
+        if (adapter != null) {
             ((Activity) app).runOnUiThread(new Runnable() {
                 @Override
                 public void run() {

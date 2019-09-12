@@ -5,6 +5,7 @@ app/src/main/jni/transition/testingStuff.c
 *.ap_
 
 .idea/
+
 # Files for the Dalvik VM
 *.dex
 
