@@ -85,6 +85,7 @@ public class MerkleBlockDataSource implements BRDataSourceInterface {
             Log.e(TAG, "Error inserting into SQLite", ex);
             //Error in between database transaction
         } finally {
+            Log.e(TAG, "Merkle blocks successfully saved");
             database.endTransaction();
             closeDatabase();
         }
