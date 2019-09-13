@@ -193,16 +193,15 @@ public class FragmentTransactionItem extends Fragment {
         mTxHashLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Todo: enable block explorer
-                return;
                 Activity app = getActivity();
                 if (app != null)
                     app.getFragmentManager().popBackStack();
                 String txUrl = BRConstants.BLOCK_EXPLORER_BASE_URL + item.getTxHashHexReversed();
                 Log.d(TAG, "txUrl = " + txUrl);
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(txUrl));
-                startActivity(browserIntent);
-                app.overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
+//                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(txUrl));
+                // Todo: enable block explorer
+//                startActivity(browserIntent);
+//                app.overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
             }
         });
 

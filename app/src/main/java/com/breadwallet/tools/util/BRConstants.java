@@ -144,7 +144,7 @@ public class BRConstants {
     public static final String wipeWallet = "wipe-wallet";
     public static final String loopBug = "android-loop-bug";
 
-    public static final String TWITTER_LINK = "https://ideavis.io";
+    public static final String TWITTER_LINK = "https://twitter.com/ideaviscoin";
     public static final String REDDIT_LINK = "https://ideavis.io";
     public static final String WEB_LINK = "https://ideavis.io";
     public static final String TOS_LINK = "https://ideavis.io/tos";
