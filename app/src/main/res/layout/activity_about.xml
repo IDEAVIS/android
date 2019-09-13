@@ -165,16 +165,16 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"/>
 
-    <com.breadwallet.presenter.customviews.BRText
-        app:customTFont="CircularPro-Book.otf"
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:text="@string/About.reddit"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/divider1"
-        app:layout_constraintLeft_toLeftOf="@+id/divider1"/>
+<!--    <com.breadwallet.presenter.customviews.BRText-->
+<!--        app:customTFont="CircularPro-Book.otf"-->
+<!--        android:id="@+id/textView21"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="24dp"-->
+<!--        android:text="@string/About.reddit"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/divider1"-->
+<!--        app:layout_constraintLeft_toLeftOf="@+id/divider1"/>-->
 
     <ImageView
         android:id="@+id/reddit_share_button"

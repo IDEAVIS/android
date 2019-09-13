@@ -193,6 +193,8 @@ public class FragmentTransactionItem extends Fragment {
         mTxHashLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Todo: enable block explorer
+                return;
                 Activity app = getActivity();
                 if (app != null)
                     app.getFragmentManager().popBackStack();

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android" translatable="false">Ideavis</string>
+  <string name="About.appName.android" translatable="false">IVC-Wallet</string>
   <!-- About screen blog label -->
   <string name="About.blog">Website</string>
   <!-- About screen footer -->
@@ -29,7 +29,7 @@
   <!-- Error alert title -->
   <string name="Alert.error">Error</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">There is a problem with your Android OS keystore, please contact contact@loafwallet.org</string>
+  <string name="Alert.keystore.generic.android">There is a problem with your Android OS keystore, please contact contact@ideavis.io</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">Your Bread encrypted data was recently invalidated because your Android lock screen was disabled.</string>
   <!-- Keystore error title -->
