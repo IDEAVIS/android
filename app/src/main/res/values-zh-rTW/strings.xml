@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">Loaf</string>
+  <string name="About.appName.android">IVC</string>
   <!-- About screen blog label -->
   <string name="About.blog">部落格</string>
   <!-- About screen footer -->
-  <string name="About.footer">由全球 Loaf 團隊製作。版本 %1$s</string>
+  <string name="About.footer">由全球 IVC 團隊製作。版本 %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">隱私政策</string>
   <!-- About screen reddit label -->
@@ -23,7 +23,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">正在載入電子錢包</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">我的 Loaf</string>
+  <string name="AccountHeader.defaultWalletName">我的 IVC</string>
   <!-- Equals symbol -->
   <string name="AccountHeader.equals">=</string>
   <!-- Manage wallet button title -->
@@ -35,7 +35,7 @@
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">您的 Android OS 金鑰儲存區有問題，請聯絡 contact@ideavis.io</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">您的 Loaf 加密資料最近已被判定為無效，因爲您的 Android 螢幕鎖定已被停用。</string>
+  <string name="Alert.keystore.invalidated.android">您的 IVC 加密資料最近已被判定為無效，因爲您的 Android 螢幕鎖定已被停用。</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android 金鑰儲存區錯誤</string>
   <!-- No internet alert message -->
@@ -140,7 +140,7 @@
   <string name="ConfirmPaperPhrase.label">要確保每項資料都正確寫下，請從紙上金鑰輸入下列字組。</string>
   <!-- Word label eg. Word #1, Word #2 -->
   <string name="ConfirmPaperPhrase.word">字組 #%1$s</string>
-  <!-- Litecoin denomination picker label -->
+  <!-- IVC denomination picker label -->
   <string name="DefaultCurrency.g">比特幣顯示單位</string>
   <!-- Exchange rate label -->
   <string name="DefaultCurrency.rateLabel">匯率</string>
@@ -707,7 +707,7 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">正在更新……</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Loafwallet 已經改名爲 Loaf，有嶄新的面貌和一些新功能。\n\n如果需要協助，就在大部分畫面的右上角尋找(?)。</string>
+  <string name="Welcome.body">IVC 已經改名爲 Loaf，有嶄新的面貌和一些新功能。\n\n如果需要協助，就在大部分畫面的右上角尋找(?)。</string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">歡迎使用 Loaf！</string>
   <!-- Wipe wallet alert message -->

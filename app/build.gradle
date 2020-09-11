@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion = 28
-    buildToolsVersion = '28.0.3'
+    compileSdkVersion = 29
+    buildToolsVersion = '29.0.2'
     defaultConfig {
         testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
         applicationId = 'io.ideavis'
         minSdkVersion 23
-        targetSdkVersion 26
-        versionCode 175
-        versionName "175"
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1"
         multiDexEnabled true
 
         // Similar to other properties in the defaultConfig block,
@@ -45,7 +45,7 @@ android {
     // Specifies two flavor dimensions.
     flavorDimensions "mode"
     productFlavors {
-        loaf {
+        ivc {
             applicationId "io.ideavis"
             dimension "mode"
             resValue "string", "app_name", "Ideavis"
@@ -62,10 +62,10 @@ android {
             }
         }
 
-        loafTestnet {
+        IVCTestnet {
             applicationId "io.ideavis.testnet"
             dimension "mode"
-            resValue "string", "app_name", "LoafWallet-testnet"
+            resValue "string", "app_name", "IVC-Android"
             buildConfigField "boolean", "BITCOIN_TESTNET", "true"
 
             externalNativeBuild {
@@ -117,7 +117,7 @@ android {
         }
 
     }
-    compileSdkVersion 26
+    compileSdkVersion 29
 }
 
 task copyResDirectoryToClasses(type: Copy) {

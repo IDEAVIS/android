@@ -84,7 +84,7 @@
   <string name="BCH.txHashHeader">BCH Transaction ID</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Approve</string>
-  <!-- <sitename> is requesting authentication using your litecoin wallet -->
+  <!-- <sitename> is requesting authentication using your IVC wallet -->
   <string name="BitID.authenticationRequest">%1$s is requesting authentication using your IVC wallet</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Deny</string>
@@ -137,7 +137,7 @@
   <!-- Word label eg. Word #1, Word #2 -->
   <string name="ConfirmPaperPhrase.word">Word #%1$s</string>
   <!-- IVC denomination picker label -->
-  <string name="DefaultCurrency.litecoinLabel">IVC Display Unit</string>
+  <string name="DefaultCurrency.ivcLabel">IVC Display Unit</string>
   <!-- Exchange rate label -->
   <string name="DefaultCurrency.rateLabel">Exchange Rate</string>
   <!-- Email unavailable alert title -->
@@ -221,7 +221,7 @@
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Location services are disabled.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">LoafWallet does not have permission to access location services.</string>
+  <string name="LocationPlugin.notAuthorized">IVC does not have permission to access location services.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">You created your wallet on %1$s</string>
   <!-- Manage wallet description text -->
@@ -230,7 +230,7 @@
   <string name="ManageWallet.textFeildLabel">Wallet Name</string>
   <!-- Manage wallet modal title -->
   <string name="ManageWallet.title">Manage Wallet</string>
-  <!-- Buy litecoin title -->
+  <!-- Buy IVC title -->
   <string name="MenuButton.buy">Buy IVC</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Lock Wallet</string>
@@ -313,7 +313,7 @@
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">LoafWallet has upgraded to using a 6-digit PIN. Tap here to upgrade.</string>
+  <string name="Prompts.UpgradePin.body">IVC has upgraded to using a 6-digit PIN. Tap here to upgrade.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Upgrade PIN</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
@@ -364,7 +364,7 @@
   <string name="RecoverWallet.subheader_reset_pin">To reset your PIN, enter the words from your paper key into the boxes below.</string>
   <!-- No amount entered error message. -->
   <string name="RequestAnAmount.noAmount">Please enter an amount first.</string>
-  <!-- Request a specific amount of litecoin -->
+  <!-- Request a specific amount of IVC -->
   <string name="RequestAnAmount.title">Request an Amount</string>
   <!-- Alert action button label -->
   <string name="ReScan.alertAction">Sync</string>
@@ -388,7 +388,7 @@
   <string name="ReScan.subheader1">Estimated time</string>
   <!-- Subheader label -->
   <string name="ReScan.subheader2">When to Sync?</string>
-  <!-- Scan litecoin address camera flash toggle -->
+  <!-- Scan IVC address camera flash toggle -->
   <string name="Scanner.flashButtonLabel">Camera Flash</string>
   <!-- Complete filter label -->
   <string name="Search.complete">complete</string>
@@ -427,7 +427,7 @@
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Go to Settings to allow camera access.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">LoafWallet is not allowed to access the camera</string>
+  <string name="Send.cameraUnavailableTitle">IVC is not allowed to access the camera</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">The destination is your own address. You cannot send to yourself.</string>
   <!-- Could not create transaction alert title -->
@@ -705,7 +705,7 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Updating...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">LoafWallet has just updated! \nIf you need help, look for the (?) in the top right of most screens.</string>
+  <string name="Welcome.body">IVC has just updated! \nIf you need help, look for the (?) in the top right of most screens.</string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">Welcome to IdeavisWallet!</string>
   <!-- Wipe wallet alert message -->

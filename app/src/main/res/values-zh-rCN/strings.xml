@@ -140,8 +140,8 @@
   <string name="ConfirmPaperPhrase.label">为确保一切均被正确地书写，请在您的纸键输入以下文字。</string>
   <!-- Word label eg. Word #1, Word #2 -->
   <string name="ConfirmPaperPhrase.word">单词#%1$s</string>
-  <!-- Litecoin denomination picker label -->
-  <string name="DefaultCurrency.litecoinLabel">莱特币显示单位</string>
+  <!-- IVC denomination picker label -->
+  <string name="DefaultCurrency.ivcLabel">莱特币显示单位</string>
   <!-- Exchange rate label -->
   <string name="DefaultCurrency.rateLabel">汇率</string>
   <!-- Email unavailable alert title -->
@@ -707,7 +707,7 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">正在更新...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Loafwallet 更名为 Loaf， 并增加了全新的界面和功能。如果您需要帮助，请使用在大多数设备屏幕右上角的(?)</string>
+  <string name="Welcome.body">IVC 更名为 Loaf， 并增加了全新的界面和功能。如果您需要帮助，请使用在大多数设备屏幕右上角的(?)</string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">欢迎使用Loaf！</string>
   <!-- Wipe wallet alert message -->

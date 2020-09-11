@@ -1,8 +1,6 @@
 package com.jniwrappers;
 
-import android.util.Log;
-
-import com.breadwallet.tools.util.Utils;
+import io.ideavis.tools.util.Utils;
 
 import java.util.Arrays;
 

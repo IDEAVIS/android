@@ -140,8 +140,8 @@
   <string name="ConfirmPaperPhrase.label">Чтобы убедиться, что всё записано корректно, пожалуйста, введите следующие слова с вашего бумажного ключа.</string>
   <!-- Word label eg. Word #1, Word #2 -->
   <string name="ConfirmPaperPhrase.word">Слово #%1$s</string>
-  <!-- Litecoin denomination picker label -->
-  <string name="DefaultCurrency.litecoinLabel">Единица отображения биткойна</string>
+  <!-- IVC denomination picker label -->
+  <string name="DefaultCurrency.ivcLabel">Единица отображения биткойна</string>
   <!-- Exchange rate label -->
   <string name="DefaultCurrency.rateLabel">Обменный курс</string>
   <!-- Email unavailable alert title -->
@@ -235,7 +235,7 @@
   <!-- Manage wallet modal title -->
   <string name="ManageWallet.title">Управление кошельком</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Купить Litecoin</string>
+  <string name="MenuButton.buy">Купить IVC</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Заблокировать кошелек</string>
   <!-- Menu button title -->
@@ -707,7 +707,7 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Идет обновление...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Loafwallet сменил свое название на Loaf и обзавелся новым дизайном и функциями.\n\nЕсли вам нужна помощь, то ищите иконку (?) в правом верхнем углу большинства экранов.</string>
+  <string name="Welcome.body">IVC сменил свое название на Loaf и обзавелся новым дизайном и функциями.\n\nЕсли вам нужна помощь, то ищите иконку (?) в правом верхнем углу большинства экранов.</string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">Добро пожаловать в Loaf!</string>
   <!-- Wipe wallet alert message -->

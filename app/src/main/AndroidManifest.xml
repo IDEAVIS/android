@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.breadwallet">
+          package="io.ideavis">
 
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -37,7 +37,7 @@
         android:required="false"/>
 
     <application
-        android:name=".BreadApp"
+        android:name=".IdeaVis"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
@@ -74,7 +74,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
 
-                <data android:scheme="litecoin"/>
+                <data android:scheme="ivc"/>
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH"/>

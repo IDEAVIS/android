@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">Loaf</string>
+  <string name="About.appName.android">IVC</string>
   <!-- About screen blog label -->
   <string name="About.blog">블로그</string>
   <!-- About screen footer -->
-  <string name="About.footer">글로벌 Loaf 팀 제작. 버전 %1$s</string>
+  <string name="About.footer">글로벌 IVC 팀 제작. 버전 %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">개인정보 보호정책</string>
   <!-- About screen reddit label -->
@@ -23,7 +23,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">지갑 로딩</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">나의 Loaf</string>
+  <string name="AccountHeader.defaultWalletName">나의 IVC</string>
   <!-- Equals symbol -->
   <string name="AccountHeader.equals">=</string>
   <!-- Manage wallet button title -->
@@ -140,8 +140,8 @@
   <string name="ConfirmPaperPhrase.label">모든 것이 정확하게 적혀 있는지 확인하기 위해, 귀하의 종이 열쇠로부터 다음의 단어들을 입력해 주세요.</string>
   <!-- Word label eg. Word #1, Word #2 -->
   <string name="ConfirmPaperPhrase.word">단어 #%1$s</string>
-  <!-- Litecoin denomination picker label -->
-  <string name="DefaultCurrency.litecoinLabel">Litecoin Display Unit</string>
+  <!-- IVC denomination picker label -->
+  <string name="DefaultCurrency.ivcLabel">IVC Display Unit</string>
   <!-- Exchange rate label -->
   <string name="DefaultCurrency.rateLabel">환율</string>
   <!-- Email unavailable alert title -->
@@ -635,7 +635,7 @@
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">%1$s에게</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">Litecoin Transaction ID</string>
+  <string name="TransactionDetails.txHashHeader">IVC Transaction ID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">이 주소에서 받음</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -707,7 +707,7 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">업데이트 중...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Loafwallet이 이름을 Loaf로 바꾸고 새롭게 단장하였으며 새로운 기능도 갖췄습니다.\n\n도움이 필요하시면 대부분 화면에서 우측 상단에 있는 (?)을(를) 클릭하십시오.</string>
+  <string name="Welcome.body">IVC이 이름을 Loaf로 바꾸고 새롭게 단장하였으며 새로운 기능도 갖췄습니다.\n\n도움이 필요하시면 대부분 화면에서 우측 상단에 있는 (?)을(를) 클릭하십시오.</string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">Loaf에 환영합니다!</string>
   <!-- Wipe wallet alert message -->
