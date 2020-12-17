@@ -48,7 +48,7 @@ android {
         ivc {
             applicationId "io.ideavis"
             dimension "mode"
-            resValue "string", "app_name", "Ideavis"
+            resValue "string", "app_name", "IVC-Wallet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "false"
 
             externalNativeBuild {

@@ -175,7 +175,7 @@ static void saveBlocks(void *info, int replace, BRMerkleBlock *blocks[], size_t 
     }
 
     mid = (*env)->GetStaticMethodID(env, _peerManagerClass, "saveBlocks",
-                                    "([Lcom/breadwallet/presenter/entities/BlockEntity;Z)V");
+                                    "([Lio/ideavis/presenter/entities/BlockEntity;Z)V");
     (*env)->CallStaticVoidMethod(env, _peerManagerClass, mid, blockObjectArray,
                                  replace ? JNI_TRUE : JNI_FALSE);
 }
@@ -223,7 +223,7 @@ static void savePeers(void *info, int replace, const BRPeer peers[], size_t coun
     }
 
     mid = (*env)->GetStaticMethodID(env, _peerManagerClass, "savePeers",
-                                    "([Lcom/breadwallet/presenter/entities/PeerEntity;Z)V");
+                                    "([Lio/ideavis/presenter/entities/PeerEntity;Z)V");
     (*env)->CallStaticVoidMethod(env, _peerManagerClass, mid, peerObjectArray,
                                  replace ? JNI_TRUE : JNI_FALSE);
 }
