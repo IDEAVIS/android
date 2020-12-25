@@ -777,18 +777,18 @@ public class APIClient {
         });
 
         //update kvStore
-        BRExecutor.getInstance().forBackgroundTasks().execute(new Runnable() {
+        /*BRExecutor.getInstance().forBackgroundTasks().execute(new Runnable() {
             @Override
             public void run() {
                 Thread.currentThread().setName("updatePlatform");
                 final long startTime = System.currentTimeMillis();
                 APIClient apiClient = APIClient.getInstance(ctx);
-                apiClient.syncKvStore();
+//                apiClient.syncKvStore();
                 long endTime = System.currentTimeMillis();
                 Log.d(TAG, "syncKvStore: DONE in " + (endTime - startTime) + "ms");
                 itemFinished();
             }
-        });
+        });*/
 
         //update fee
         BRExecutor.getInstance().forBackgroundTasks().execute(new Runnable() {

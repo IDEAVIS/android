@@ -78,7 +78,7 @@ public class FragmentRequestAmount extends Fragment {
     private String receiveAddress;
     private BRButton shareButton;
     private Button shareEmail;
-//    private Button shareTextMessage;
+    //    private Button shareTextMessage;
     private boolean shareButtonsShown = true;
     private String selectedIso;
     private Button isoButton;

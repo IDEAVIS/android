@@ -213,9 +213,9 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Ignore</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">DEVICE SECURITY COMPROMISED\n Any \'jailbreak\' app can access Loaf\'s keychain data and steal your IVC! Wipe this wallet immediately and restore on a secure device.</string>
+  <string name="JailbreakWarnings.messageWithBalance">DEVICE SECURITY COMPROMISED\n Any \'jailbreak\' app can access IVC-Wallet\'s keychain data and steal your IVC! Wipe this wallet immediately and restore on a secure device.</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithoutBalance">DEVICE SECURITY COMPROMISED\n Any \'jailbreak\' app can access Loaf\'s keychain data and steal your IVC. Please only use Loaf on a non-jailbroken device.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">DEVICE SECURITY COMPROMISED\n Any \'jailbreak\' app can access IVC-Wallet\'s keychain data and steal your IVC. Please only use IVC-Wallet on a non-jailbroken device.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">WARNING</string>
   <!-- Location services disabled error -->
@@ -482,7 +482,7 @@
   <string name="Settings.currency">Display Currency</string>
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Join Early Access</string>
-  <!-- Are you enjoying loaf alert message body -->
+  <!-- Are you enjoying IVC-Wallet alert message body -->
   <string name="Settings.enjoying">Are you enjoying IdeavisWallet?</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Import Wallet</string>

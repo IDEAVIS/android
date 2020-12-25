@@ -276,8 +276,8 @@ public class BRWalletManager {
     }
 
     public void wipeAll(Context app) {
-        wipeKeyStore(app);
         wipeWalletButKeystore(app);
+        wipeKeyStore(app);
     }
 
     public boolean confirmSweep(final Context ctx, final String privKey) {

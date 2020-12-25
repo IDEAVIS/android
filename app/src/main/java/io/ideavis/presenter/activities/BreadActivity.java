@@ -366,14 +366,14 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
         unregisterReceiver(mConnectionReceiver);
 
         //sync the kv stores
-        if (PLATFORM_ON) {
-            BRExecutor.getInstance().forBackgroundTasks().execute(new Runnable() {
-                @Override
-                public void run() {
-                    APIClient.getInstance(BreadActivity.this).syncKvStore();
-                }
-            });
-        }
+//        if (PLATFORM_ON) {
+//            BRExecutor.getInstance().forBackgroundTasks().execute(new Runnable() {
+//                @Override
+//                public void run() {
+//                    APIClient.getInstance(BreadActivity.this).syncKvStore();
+//                }
+//            });
+//        }
 
     }
 

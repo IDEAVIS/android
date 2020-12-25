@@ -557,7 +557,7 @@
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Brugsgrænse: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Aktiver Touch ID til Loaf</string>
+  <string name="TouchIdSettings.switchLabel">Aktiver Touch ID til IVC-Wallet</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Aktiver autentificering via fingeraftryk</string>
   <!-- Touch ID settings view title -->
@@ -653,7 +653,7 @@
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Touch sensor</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Lås op for dit Loaf.</string>
+  <string name="UnlockScreen.touchIdPrompt">Lås op for dit IVC-Wallet.</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">Lås op for din Android enhed for at fortsætte</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -665,7 +665,7 @@
   <!-- Update PIN caption text -->
   <string name="UpdatePin.caption">Husk denne PIN. Hvis du glemmer den, vil du ikke kunne få adgang til dine IVC.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Din PIN bliver brugt til at låse op for dit Loaf og sende penge.</string>
+  <string name="UpdatePin.createInstruction">Din PIN bliver brugt til at låse op for dit IVC-Wallet og sende penge.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Indstil PIN</string>
   <!-- Update PIN title -->
@@ -699,7 +699,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Godkend denne transaktion</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Åben Loaf iPhone appen for at konfigurere din pung.</string>
+  <string name="Watch.noWalletWarning">Åben IVC-Wallet iPhone appen for at konfigurere din pung.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Afvis</string>
   <!-- Webview loading error message -->
@@ -707,9 +707,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Opdaterer...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Loaf har skiftet navn til Loaf med et helt nyt look og nogle nye funktioner.\n\nHvis du har brug for hjælp, led efter (?) øverst til højre på de fleste skærme.</string>
+  <string name="Welcome.body">IVC-Wallet har skiftet navn til IVC-Wallet med et helt nyt look og nogle nye funktioner.\n\nHvis du har brug for hjælp, led efter (?) øverst til højre på de fleste skærme.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Velkommen til Loaf!</string>
+  <string name="Welcome.title">Velkommen til IVC-Wallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Er du sikker på at du vil slette denne wallet?</string>
   <!-- Wipe wallet alert title -->
@@ -721,9 +721,9 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Indtast denne wallets gendannelsessætning for at slette den og starte eller gendanne en anden. Din nuværende saldo forbliver med denne sætning.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Påbegyndelse eller gendannelse af en anden tegnebog giver mulighed for at få adgang samt administrere en Loaf tegnebog på denne enhed.</string>
+  <string name="WipeWallet.startMessage">Påbegyndelse eller gendannelse af en anden tegnebog giver mulighed for at få adgang samt administrere en IVC-Wallet tegnebog på denne enhed.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWarning">Du vil ikke længere være i stand til at få adgang til din nuværende Loaf tegnebog fra denne enhed. Saldoen vil forblive på frasen.</string>
+  <string name="WipeWallet.startWarning">Du vil ikke længere være i stand til at få adgang til din nuværende IVC-Wallet tegnebog fra denne enhed. Saldoen vil forblive på frasen.</string>
   <!-- Wipe wallet navigation item title. -->
   <string name="WipeWallet.title">Start eller gendan en anden wallet.</string>
   <!-- Wipe wallet button title -->

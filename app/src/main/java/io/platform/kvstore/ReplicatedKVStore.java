@@ -232,7 +232,7 @@ public class ReplicatedKVStore {
         long curVer = 0;
 
         try {
-            //if no version, fine the version
+            //if no version, find the version
             SQLiteDatabase db = getReadable();
             if (version == 0) {
                 curVer = _localVersion(key).version;

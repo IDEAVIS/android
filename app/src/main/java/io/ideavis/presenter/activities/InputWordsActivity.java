@@ -181,8 +181,7 @@ public class InputWordsActivity extends BRActivity {
                                     public void onClick(BRDialogView brDialogView) {
                                         brDialogView.dismissWithAnimation();
                                         BRWalletManager m = BRWalletManager.getInstance();
-                                        m.wipeWalletButKeystore(app);
-                                        m.wipeKeyStore(app);
+                                        m.wipeAll(app);
                                         Intent intent = new Intent(app, IntroActivity.class);
                                         finalizeIntent(intent);
                                     }

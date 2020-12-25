@@ -511,7 +511,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Démarrer/récupérer un autre portefeuille</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Aidez à améliorer Loaf en partageant vos données anonymes avec nous. Cela n\'inclut aucune information financière. Nous respectons votre confidentialité financière.</string>
+  <string name="ShareData.body">Aidez à améliorer IVC-Wallet en partageant vos données anonymes avec nous. Cela n\'inclut aucune information financière. Nous respectons votre confidentialité financière.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Partager les données ?</string>
   <!-- Share data switch label. -->
@@ -519,7 +519,7 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Enregistrez la clé de papier à nouveau</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Votre clé de papier est la seule façon de restaurer votre Loaf si votre téléphone est perdu, volé, cassé ou mis à niveau.\n\nNous vous montrerons une liste de mots à écrire sur un morceau de papier et à garder en sécurité.</string>
+  <string name="StartPaperPhrase.body">Votre clé de papier est la seule façon de restaurer votre IVC-Wallet si votre téléphone est perdu, volé, cassé ou mis à niveau.\n\nNous vous montrerons une liste de mots à écrire sur un morceau de papier et à garder en sécurité.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Écrire la clé de papier</string>
   <!-- Argument is date -->
@@ -551,14 +551,14 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">L\'identification par empreinte digitale n\'est pas activée</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Utilisez votre empreinte digitale pour débloquer votre Loaf et envoyer de l\'argent jusqu\'à une limite définie.</string>
+  <string name="TouchIdSettings.label">Utilisez votre empreinte digitale pour débloquer votre IVC-Wallet et envoyer de l\'argent jusqu\'à une limite définie.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Écran de plafond de dépenses Touch ID</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Limite de dépenses : %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Activer Touch ID pour Loaf</string>
-  <!-- Enable fingerprint for this wallet called Loaf -->
+  <string name="TouchIdSettings.switchLabel">Activer Touch ID pour IVC-Wallet</string>
+  <!-- Enable fingerprint for this wallet called IVC-Wallet -->
   <string name="TouchIdSettings.switchLabel.android">Activer l\'identification par empreinte digitale</string>
   <!-- Touch ID settings view title -->
   <string name="TouchIdSettings.title">Touch ID</string>
@@ -653,7 +653,7 @@
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Appuyez sur le capteur</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Déverrouillez votre Loaf.</string>
+  <string name="UnlockScreen.touchIdPrompt">Déverrouillez votre IVC-Wallet.</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">Veuillez déverrouiller votre appareil Android pour continuer.</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -665,7 +665,7 @@
   <!-- Update PIN caption text -->
   <string name="UpdatePin.caption">Souvenez-vous de ce code PIN. Si vous l\'oubliez, vous ne pourrez pas accéder à votre IVC.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Votre NIP sera utilisé pour débloquer votre Loaf et envoyer de l\'argent.</string>
+  <string name="UpdatePin.createInstruction">Votre NIP sera utilisé pour débloquer votre IVC-Wallet et envoyer de l\'argent.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Définir PIN</string>
   <!-- Update PIN title -->
@@ -699,7 +699,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Autoriser cette transaction</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Ouvrez l\'application Loaf pour iPhone pour configurer votre portefeuille.</string>
+  <string name="Watch.noWalletWarning">Ouvrez l\'application IVC-Wallet pour iPhone pour configurer votre portefeuille.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Rejeter</string>
   <!-- Webview loading error message -->
@@ -707,9 +707,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Mise à jour...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">IVC revient sous le nom de Loaf, avec un nouveau design et de nouvelles fonctionnalités. \n\nSi vous avez besoin d\'aide, cliquez sur le (?) en haut à droite de la plupart des écrans.</string>
+  <string name="Welcome.body">IVC revient sous le nom de IVC-Wallet, avec un nouveau design et de nouvelles fonctionnalités. \n\nSi vous avez besoin d\'aide, cliquez sur le (?) en haut à droite de la plupart des écrans.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Bienvenue chez Loaf !</string>
+  <string name="Welcome.title">Bienvenue chez IVC-Wallet !</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Souhaitez-vous vraiment supprimer ce portefeuille ?</string>
   <!-- Wipe wallet alert title -->
@@ -721,9 +721,9 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Soumettez la phrase de récupération de ce portefeuille pour l\'effacer et commencer à en récupérer un autre. Votre solde actuel demeure sur cette phrase.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">L\'ouverture ou la récupération d\'un autre portefeuille vous permet d\'accéder et de gérer différents portefeuilles Loaf depuis cet appareil.</string>
+  <string name="WipeWallet.startMessage">L\'ouverture ou la récupération d\'un autre portefeuille vous permet d\'accéder et de gérer différents portefeuilles IVC-Wallet depuis cet appareil.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWarning">Vous ne pourrez plus accéder à votre portefeuille Loaf depuis cet appareil. Le solde restera inchangé.</string>
+  <string name="WipeWallet.startWarning">Vous ne pourrez plus accéder à votre portefeuille IVC-Wallet depuis cet appareil. Le solde restera inchangé.</string>
   <!-- Wipe wallet navigation item title. -->
   <string name="WipeWallet.title">Commencer un nouveau portefeuille ou récupérer un autre portefeuille</string>
   <!-- Wipe wallet button title -->

@@ -73,7 +73,7 @@ public class FragmentReceive extends Fragment {
     private View separator;
     private BRButton shareButton;
     private Button shareEmail;
-//    private Button shareTextMessage;
+    //    private Button shareTextMessage;
     private Button requestButton;
     private BRLinearLayoutWithCaret shareButtonsLayout;
     private BRLinearLayoutWithCaret copiedLayout;
