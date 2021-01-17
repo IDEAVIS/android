@@ -554,25 +554,27 @@ public class BRKeyStore {
     }
 
     public synchronized static int getWalletCreationTime(final Context context) {
-        AliasObject obj = aliasObjectMap.get(WALLET_CREATION_TIME_ALIAS);
-        byte[] result = null;
-        try {
-            result = _getData(context, obj.alias, obj.datafileName, obj.ivFileName, 0);
-        } catch (UserNotAuthenticatedException e) {
-            e.printStackTrace();
-        }
-        if (Utils.isNullOrEmpty(result)) {
-            //if none, try getting from KVStore
-            WalletInfo info = KVStoreManager.getInstance().getWalletInfo(context);
-            if (info != null) {
-                int creationDate = info.creationDate;
-                putWalletCreationTime(creationDate, context);
-                return creationDate;
-            } else
-                return 0;
-        } else {
-            return TypesConverter.bytesToInt(result);
-        }
+        // j4hangir: for some reason, specifying a `earliestKeyTime` results in a broken wallet
+        return 0;
+//        AliasObject obj = aliasObjectMap.get(WALLET_CREATION_TIME_ALIAS);
+//        byte[] result = null;
+//        try {
+//            result = _getData(context, obj.alias, obj.datafileName, obj.ivFileName, 0);
+//        } catch (UserNotAuthenticatedException e) {
+//            e.printStackTrace();
+//        }
+//        if (Utils.isNullOrEmpty(result)) {
+//            //if none, try getting from KVStore
+//            WalletInfo info = KVStoreManager.getInstance().getWalletInfo(context);
+//            if (info != null) {
+//                int creationDate = info.creationDate;
+//                putWalletCreationTime(creationDate, context);
+//                return creationDate;
+//            } else
+//                return 0;
+//        } else {
+//            return TypesConverter.bytesToInt(result);
+//        }
     }
 
     public synchronized static boolean putPinCode(String pinCode, Context context) {

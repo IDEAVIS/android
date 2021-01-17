@@ -363,12 +363,14 @@ public class APIClient {
             Log.d(TAG, "sendRequest: the content is gzip, unzipping");
             byte[] decompressed = BRCompressor.gZipExtract(data);
             postReqBody = ResponseBody.create(null, decompressed);
+            // j4hangir: disable for now
+            /*
             try {
                 Log.d(TAG, "sendRequest: " + String.format(Locale.getDefault(), "(%s)%s, code (%d), mess (%s), body (%s)", request.method(),
                         request.url(), response.code(), response.message(), new String(decompressed, "utf-8")));
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
-            }
+            }*/
             return response.newBuilder().body(postReqBody).build();
         } else {
             try {
